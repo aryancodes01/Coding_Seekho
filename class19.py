@@ -67,4 +67,19 @@ aryan@Aryans-MacBook-Air Coding_seekho % /usr/local/bin/python3 /Users/aryan/Cod
 3
 2
 2
+n = int(input("Enter the number :"))
+m = n
+sum = 0
+product = 1
+while m != 0:
+    last = m % 10
+    sum += last
+    product *= last
+    n //= 10
+temp = sum + product
+if n % temp == 0:
+    print("yes")
+else:
+    print("no")
+
 """
