@@ -56,16 +56,4 @@ o/p=  2
       None
       3
 
-
-
 """
-
-l = [1, 2, 3, 4]
-
-
-def sqF():
-    for x in l:
-        print(x * x)
-
-
-sqF()
