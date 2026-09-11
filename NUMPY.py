@@ -62,7 +62,8 @@ OUTPUT:
 [3 5]
 """
 import numpy as np
-arr=np.array([1,2,3,4,5,5,6,6,6,7,7,7,8,8,99,9,9,0])
+arr=np.array([1,2,3,4,5])
+brr=np.array([1,2,3,4,5])
 hrr = arr[1:5].copy()# now only hrr will change phle agar copy nhi lga tha to arr bhi change ho rha tha 
 hrr[0]=23
 print(hrr)
@@ -70,3 +71,4 @@ print(arr[1:2])
 a= np.sum(hrr)
 print(a)
 print(np.min(hrr))
+print(arr+brr)# index wise addition ho jayega arr and brr ka 
