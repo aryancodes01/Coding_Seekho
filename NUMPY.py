@@ -60,6 +60,9 @@ print(arr[2:6:2])
 
 OUTPUT:
 [3 5]
+
+VECTORIZATION - hmne ek array bna ke koi operation kiya to wo saare elements pe operation hota hai array ke 
+
 """
 import numpy as np
 arr=np.array([1,2,3,4,5])
