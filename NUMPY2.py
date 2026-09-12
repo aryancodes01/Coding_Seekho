@@ -41,6 +41,10 @@ OUTPUT:
  
  
  fancy indexing = ek saath multiple array element access kr skte hai for example : print(arr[[0,1,2,3]]) and print(arr[[arr>=90]])
+ 
+ in 2d matrix :
+ print(arr[[row index],[column index ]
+ boolean indexing : jo true hota whi dikhata hai output me 
 """
 import numpy as np
 
