@@ -19,5 +19,14 @@ Think of a DataFrame like an Excel spreadsheet
 
 """
 import pandas as pd
-
-print(pd.__version__)
+import numpy as np 
+s=pd.Series([[1,2],[3,5]])
+print(s)
+data= {"Name":["aryan","ashish"],
+       "Age":["23","33"],
+       "Marks":["90","40"]
+         
+         
+         }
+df=pd.DataFrame(data)
+print(df)
