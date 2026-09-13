@@ -46,7 +46,7 @@ OUTPUT:
  print(arr[[row index],[column index ]
  boolean indexing : jo true hota whi dikhata hai output me 
 """
-import numpy as np
+import numpy  as np
 
 crr = np.array([[1, 2],
                 [4, 5]])
