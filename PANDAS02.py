@@ -10,4 +10,4 @@ data = {
 
 df = pd.DataFrame(data)
 print(df.dropna(subset=['Name']))# this is most important
-print(df['Name'].fillna('LUND'))
+print(df['Name'].fillna('LU'))
