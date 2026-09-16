@@ -2,12 +2,11 @@ import pandas as pd
 import numpy as np
 
 data = {
-    "Name": ["Aryan", "Rahul", "Priya", "Aman", "Neha", "Riya", "Karan", "Sneha", "Vikas", None],
-    "Age": [20, 21, np.nan, 22, 20, None, 23, 21, 22, 24],
-    "Marks": [85, 90, 78, np.nan, 88, 92, None, 76, 95, 89],
-    "City": ["Lucknow", "Delhi", None, "Kanpur", "Agra", "Lucknow", "Delhi", "Agra", None, "Kanpur"]
+    "Name": ["Aryan", "rahul", "priya", "Aman", "Neha"],
+    "Age": [20, 21, 21, 22, 24],
+    "Marks": [85, 90, 78, 88, 92]
 }
 
 df = pd.DataFrame(data)
-print(df.dropna(subset=['Name']))# this is most important
-print(df['Name'].fillna('LU'))
+df['Name']=df['Name'].apply(str.title)#first letter capital me badal de rha tha 
+print(df)
