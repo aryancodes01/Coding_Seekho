@@ -1,4 +1,3 @@
-# STRINGS
 """Datatype : <class 'str'>
 -> Sequence (index)-single
 
@@ -67,3 +66,12 @@ ohkees gnidoc
 
 
 """
+
+x = "coding seekho"
+y = x + "4"
+print(y)
+
+
+s = "coding seekho"
+for i in range(13):
+    print(s[i])
